@@ -5,13 +5,13 @@
  * 
  * Disassembling to symbolic ASL+ operators
  *
- * Disassembly of ../Results/DSDT.aml, Sun Jul 19 01:45:48 2020
+ * Disassembly of ./DSDT.aml, Wed Jul 22 19:26:47 2020
  *
  * Original Table Header:
  *     Signature        "DSDT"
  *     Length           0x00027606 (161286)
  *     Revision         0x02
- *     Checksum         0xB2
+ *     Checksum         0xF2
  *     OEM ID           "GBT   "
  *     OEM Table ID     "GBTUACPI"
  *     OEM Revision     0x01072009 (17244169)
@@ -234,7 +234,7 @@ DefinitionBlock ("", "DSDT", 2, "GBT   ", "GBTUACPI", 0x01072009)
     Name (TOPM, 0x00000000)
     Name (ROMS, 0xFFE00000)
     Name (VGAF, One)
-    OperationRegion (GNVS, SystemMemory, 0x8A4F7000, 0x0766)
+    OperationRegion (GNVS, SystemMemory, 0x8A4F5000, 0x0766)
     Field (GNVS, AnyAcc, Lock, Preserve)
     {
         OSYS,   16, 
@@ -11691,7 +11691,7 @@ DefinitionBlock ("", "DSDT", 2, "GBT   ", "GBTUACPI", 0x01072009)
         }
     }
 
-    Name (PNVB, 0x8A527018)
+    Name (PNVB, 0x8A525018)
     Name (PNVL, 0x0287)
     If ((ECR1 == One))
     {
