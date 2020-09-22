@@ -6,3 +6,5 @@ hackintosh config file for GB-BRi5H-8250
 - OC_10.15: OpenCore config file for macOS Catalina
 - SSDT_by_SSDTTime: SSDT file generate by SSDTTime
 - SSDT_by_hand: SSDT file edit by hand
+
+NOTE: regenerate MLB, SystemSerialNumber and SystemUUID, if you use this config
